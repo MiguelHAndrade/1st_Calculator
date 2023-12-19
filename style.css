@@ -20,6 +20,8 @@ body{
     height: 66vh;
     background-color: #c9c9c9;
     border-radius: 20px;
+    min-width: 350px;
+    max-width: 400px;
 }
 
 .inp{
@@ -29,6 +31,8 @@ body{
     background-color: #fff;
     text-align: center;
     display: flex;
+    min-width: 300px;
+    max-width: 350px;
 }
 
 .txt{
@@ -50,7 +54,7 @@ body{
 
 .cont-nrs{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .nr{
@@ -116,3 +120,18 @@ body{
     font-size: 16pt;
     /* color: rgb(0, 255, 4); */
 }
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* @media (max-width: 933px) {
+   
+} */
